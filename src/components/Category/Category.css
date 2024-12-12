@@ -1,0 +1,43 @@
+.category {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin: 4rem 2rem;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+    min-width: 10rem;
+    width: 25vw;
+}
+
+h2 {
+    margin: 0;
+    padding: 0;
+    font-size: 1.2rem;
+}
+
+.subList {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    width: max-content;
+}
+
+.subList li {
+    font-size: 1.1rem;
+    display: flex;
+}
+
+.subList label {
+    cursor: pointer;
+    margin-left: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.subList input[type="checkbox"] {
+    cursor: pointer;
+    transform: scale(1.5);
+    margin-right: 1rem;
+}

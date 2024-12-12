@@ -1,0 +1,64 @@
+.manage-page {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.manage-page p {
+    width: 100%;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.manage-tb {
+    width: 70vw;
+    border-spacing: 5px 1rem;
+    text-align: center;
+    vertical-align: middle;
+    margin-bottom: 1rem;
+}
+
+.manage-tb thead {
+    border-bottom: solid 1px black;
+    background-color: aliceblue;
+    height: 3rem;
+    font-size: 1.2rem;
+}
+
+.manage-tb tr {
+    height: 2rem;
+
+}
+
+.manage-tb input {
+    transform: scale(1.5);
+}
+
+.submit-editor-pick {
+    margin-top: 2rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.submit-editor-pick button {
+    width: 10rem;
+    height: 3rem;
+    font-size: 1.2rem;
+    background-color: transparent;
+    border: solid 2px black;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.submit-editor-pick button:hover {
+    background-color: black;
+    color: white;
+}

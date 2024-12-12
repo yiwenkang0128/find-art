@@ -1,0 +1,51 @@
+.login-banner {
+    width: 0vw;
+    height: 100vh;
+    cursor: pointer;
+}
+
+.login-banner-top {
+    position: absolute;
+    left: 2vw;
+    flex-shrink: 0;
+    margin-left: 2rem;
+    width: 15vw;
+    height: 48vh;
+    background-color: #000000;
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 20;
+}
+
+.login-banner-top h1 {
+    color: aliceblue;
+    font-style: italic;
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin: 0;
+}
+
+.login-banner-left {
+    position: absolute;
+    left: 0.5vw;
+    flex-shrink: 0;
+    margin-left: 2rem;
+    width: 15vw;
+    height: 52vh;
+    background-color: skyblue;
+    z-index: 18;
+}
+
+.login-banner-right {
+    position: absolute;
+    left: 11vw;
+    flex-shrink: 0;
+    margin-left: 2rem;
+    width: 7vw;
+    height: 56vh;
+    background-color: palevioletred;
+    z-index: 19;
+}

@@ -1,0 +1,130 @@
+.intro-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+}
+
+.intro-body {
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0rem 1rem 0rem 1rem;
+}
+
+.artwork-img {
+    flex-direction: column;
+    object-fit: cover;
+    max-width: 50vw;
+    min-width: 40vw;
+    max-height: 70vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem 2rem 4rem 2rem;
+    margin: 2rem 2rem 0rem 3rem;
+    border: solid 1px black;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+
+}
+
+.artwork-img img {
+    width: 100%;
+    height: auto;
+    max-height: 100%;
+    object-fit: contain;
+
+}
+
+.publish-info {
+    margin-top: 1rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.intro-publisher {
+    margin: 0;
+    font-weight: 500;
+
+}
+
+.art-likes {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 0.1rem;
+}
+
+.like-button {
+    border: none;
+    background-color: transparent;
+    height: 1.5rem;
+    cursor: pointer;
+}
+
+
+
+.like-data {
+    margin: 0;
+    height: 1.5rem;
+    font-size: 1.2rem;
+}
+
+.artwork-intro {
+    margin-top: 3rem;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    padding: 1rem;
+    height: 80vh;
+    overflow-y: scroll;
+}
+
+.intro-name {
+    font-size: 1.8rem;
+}
+
+.intro-author {
+    font-weight: 400;
+}
+
+.category-label {
+    font-weight: bold;
+}
+
+.intro-description {
+    line-height: 1.8;
+
+}
+
+.go-back {
+    width: 90vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: start;
+}
+
+.back-btn {
+    border: none;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.back-btn:hover {
+    font-weight: bold;
+}

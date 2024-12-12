@@ -1,0 +1,128 @@
+.post-page {
+    width: 90vw;
+}
+
+.post-page p {
+    padding-left: 10vw;
+    height: 3rem;
+    font-size: 1.8rem;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.post-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 1rem;
+}
+
+.input-area {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.post-form label {
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.label-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    width: 20vw;
+    height: max-content;
+}
+
+.input-area input {
+    font-weight: bold;
+    margin-left: 1rem;
+    height: 2rem;
+    width: 50vw;
+    border-radius: 5px;
+    border: solid 1px black;
+    font-size: 1rem;
+    font-weight: normal;
+}
+
+.select-category {
+    width: 70vw;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    border: none;
+    border-top: solid 1px black;
+    font-weight: bold;
+}
+
+.select-category input {
+    height: 2rem;
+}
+
+.select-label {
+    font-weight: normal;
+}
+
+.description-area {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.description-area label {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 1rem;
+}
+
+.description-label {
+    font-size: 1.2rem;
+}
+
+.description-area textarea {
+    padding: 1rem;
+    resize: none;
+    width: 70vw;
+    height: 50vh;
+    border: solid 1px black;
+    border-radius: 10px;
+    font-size: 1.3rem;
+}
+
+.post-submit-area {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    height: 4rem;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+
+}
+
+.post-btn {
+    width: 10vw;
+    height: 3rem;
+    margin-right: 2rem;
+    background-color: transparent;
+    border-radius: 10px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.post-btn:hover {
+    background-color: rgb(0, 0, 0);
+    color: white;
+}

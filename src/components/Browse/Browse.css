@@ -1,0 +1,56 @@
+.browse {
+    padding: 1rem 3rem 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.sort {
+    height: 3rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    gap: 1rem;
+    font-weight: bold;
+}
+
+#sort {
+    height: 1.5rem;
+    font-size: 1rem;
+}
+
+
+.browse-artworks {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    row-gap: 1rem;
+    column-gap: 3rem;
+    width: 100%;
+    justify-items: center;
+
+}
+
+.pagination {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+
+.page-num-btn {
+    width: 1.5rem;
+    height: 1.5rem;
+    background-color: transparent;
+    border: solid 1px black;
+    cursor: pointer;
+}
+
+.page-num-btn.active {
+    background-color: #000000;
+    color: white;
+    font-weight: bold;
+}

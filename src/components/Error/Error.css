@@ -1,0 +1,14 @@
+.error {
+    width: 100vw;
+    height: 1.5rem;
+    background-color: rgb(255, 197, 197);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px red;
+}
+
+.error-msg {
+    font-size: 1rem;
+    color: black;
+}
